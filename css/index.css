@@ -133,7 +133,10 @@ input, label {
         appearance: none;
     }
     .agreement{
-        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 3px;
         font-weight: 400;
         font-size: 14px;
         line-height: 24px;
@@ -141,8 +144,12 @@ input, label {
         color: #757575;
         margin: 0;
     }
+    .agreement a{
+        margin-left: 5px;
+    }
     .agreement-checkbox:checked + .psevdo-check{
         background-image: url(../images/icon/icon-check.svg);
+        border-color: var(--style-color);
         background-position: center;
         background-size: contain;
     }
@@ -153,6 +160,7 @@ input, label {
         margin-right: 7px;
         border: 2px solid #212121;
         border-radius: 4px;
+        box-sizing: border-box;
     }
     .form-name:focus{
         border: 1px solid var(--style-color);
