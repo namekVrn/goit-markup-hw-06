@@ -1,0 +1,14 @@
+ul{
+    display: flex;
+    list-style: none;
+    background: #000;
+    
+}
+ul>li{
+    margin-top: 50px;
+    margin-right: 15px;
+    border: 1px solid wheat;
+}
+ul>li:nth-child(n3){
+
+}
