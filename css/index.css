@@ -231,7 +231,7 @@ input, label {
 }
 /* Дополнительные классы */
 
-.action{
+a.action{
     color:var(--style-color);
 }
 a.action::before{
